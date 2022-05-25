@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    background-image: url('/images/background.jpg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.countdown-container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    backdrop-filter: blur(35px);
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 5px 5px 29px 3px;
+}
+
+.time-container {
+    display: flex;
+    width: 170px;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.digit {
+    font-size: 7rem;
+    text-shadow: rgba(100, 100, 111, 0.2) 0px 7px 6px;
+}
+
+.description {
+    font-size: .9rem;
+    text-shadow: rgba(100, 100, 111, 0.2) 0px 7px 6px;
+}
