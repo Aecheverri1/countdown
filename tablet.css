@@ -1,0 +1,22 @@
+.countdown-container {
+    display: flex;
+    flex-direction: row;
+    width: 690px;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.time-container {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.digit {
+    font-size: 5rem;
+}
+
+.description {
+    font-size: .8rem;
+}
